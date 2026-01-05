@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Grace Tian | 个人网站</title>
-    <meta name="description" content="Grace Tian的个人网站：项目、经历与联系方式。" />
+    <title>Grace Tian Personal Website</title>
+    <meta name="description" content="Grace Tian's personal website: projects, experience, and contact information." />
     <meta name="theme-color" content="#0b0f14" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Grace Tian | 个人网站" />
-    <meta property="og:description" content="项目、经历与联系方式。" />
+    <meta property="og:title" content="Grace Tian | Personal Website" />
+    <meta property="og:description" content="Projects, experience, and contact information." />
     <meta property="og:type" content="website" />
 
     <link rel="icon" href="data:," />
@@ -18,40 +18,40 @@
 
   <body>
     <header class="header">
-      <a class="logo" href="#top" aria-label="Go to top">👋 Grace Tian</a>
+      <a class="logo" href="#top" aria-label="Go to top">Grace Tian</a>
 
       <nav class="nav" aria-label="Primary">
-        <a href="#about">关于</a>
-        <a href="#projects">项目</a>
-        <a href="#contact">联系</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </nav>
 
       <div class="header-actions">
         <button id="themeToggle" class="btn btn-ghost" type="button" aria-label="Toggle theme">
           🌙
         </button>
-        <a class="btn" href="#contact">联系我</a>
+        <a class="btn" href="#contact">Contact Me</a>
       </div>
     </header>
 
     <main id="top" class="main">
-      <!-- Hero -->
+      <!-- Hero Section -->
       <section class="hero">
         <div class="hero-left">
-          <p class="eyebrow">你好，我是</p>
+          <p class="eyebrow">Hello, I am</p>
           <h1 class="headline">Grace Tian</h1>
           <p class="subhead">
-            一句话介绍你自己：比如「UC Berkeley 学生 / 软件工程 / 机器学习 / 产品方向」。
+            A one-sentence introduction about yourself, e.g., "UC Berkeley student / Software Engineering / Machine Learning / Product Focus".
           </p>
 
           <div class="cta">
-            <a class="btn" href="#projects">看我的项目</a>
-            <a class="btn btn-ghost" href="https://github.com/你的GitHub用户名" target="_blank" rel="noreferrer">
+            <a class="btn" href="#projects">See My Projects</a>
+            <a class="btn btn-ghost" href="https://github.com/YourGitHubUsername" target="_blank" rel="noreferrer">
               GitHub →
             </a>
-            <!-- 可选：简历文件放到 assets/resume.pdf -->
+            <!-- Optional: place resume file at assets/resume.pdf -->
             <a class="btn btn-ghost" href="./assets/resume.pdf" target="_blank" rel="noreferrer">
-              下载简历
+              Download Resume
             </a>
           </div>
 
@@ -64,9 +64,9 @@
         </div>
 
         <div class="hero-right">
-          <!-- 可选头像：assets/avatar.png -->
+          <!-- Optional avatar: assets/avatar.png -->
           <div class="avatar" aria-hidden="true">
-            <img src="./assets/avatar.png" alt="头像" onerror="this.remove(); this.parentElement.classList.add('avatar-fallback')" />
+            <img src="./assets/avatar.png" alt="Avatar" onerror="this.remove(); this.parentElement.classList.add('avatar-fallback')" />
             <div class="avatar-fallback-inner">
               <span>Grace Tian</span>
               <small>your@email.com</small>
@@ -74,37 +74,36 @@
           </div>
 
           <div class="card quick">
-            <h2>当前关注</h2>
+            <h2>Current Focus</h2>
             <ul>
-              <li>✅ 你正在做的方向/项目 1</li>
-              <li>✅ 你正在做的方向/项目 2</li>
-              <li>✅ 你想找的机会/合作</li>
+              <li>✅ Direction/Project 1 you are currently working on</li>
+              <li>✅ Direction/Project 2 you are currently working on</li>
+              <li>✅ Opportunities or collaborations you are seeking</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- About -->
+      <!-- About Section -->
       <section id="about" class="section">
         <div class="section-title">
-          <h2>关于我</h2>
-          <p>用 3~5 句写清楚：你是谁、擅长什么、做过什么、想做什么。</p>
+          <h2>About Me</h2>
+          <p>Write 3–5 sentences to clearly describe: who you are, what you are good at, what you have done, and what you want to do.</p>
         </div>
 
         <div class="grid-2">
           <div class="card">
-            <h3>简介</h3>
+            <h3>Introduction</h3>
             <p>
-              我是……（学校/年级/方向）。喜欢做……（技术栈/研究兴趣）。
-              之前做过……（最重要的经历 1-2 个）。
+              I am… (school/year/field). I enjoy doing… (tech stack/research interests). Previously, I have done… (most important 1–2 experiences).
             </p>
             <p class="muted">
-              你可以把这段改成更“你”的语气，简短、具体、可验证。
+              You can make this section more "you" in tone—short, specific, and verifiable.
             </p>
           </div>
 
           <div class="card">
-            <h3>技能</h3>
+            <h3>Skills</h3>
             <div class="chips">
               <span class="chip">Python</span>
               <span class="chip">Pandas / NumPy</span>
@@ -114,37 +113,37 @@
               <span class="chip">Git</span>
             </div>
 
-            <h3 style="margin-top: 18px">经历亮点</h3>
+            <h3 style="margin-top: 18px">Highlight Experiences</h3>
             <ul class="list">
-              <li>📌 一句话量化成果：比如「把 X 提升到 Y」</li>
-              <li>📌 一句话说明影响：比如「服务 Z 用户/数据规模」</li>
-              <li>📌 一句话说技术点：比如「GroupKFold 防泄露」</li>
+              <li>📌 Quantified result in one sentence, e.g., "Improved X to Y"</li>
+              <li>📌 Impact in one sentence, e.g., "Served Z users / data scale"</li>
+              <li>📌 Technical detail in one sentence, e.g., "Used GroupKFold to prevent data leakage"</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- Projects -->
+      <!-- Projects Section -->
       <section id="projects" class="section">
         <div class="section-title">
-          <h2>项目</h2>
-          <p>放 2~6 个最能代表你的项目，每个项目都要有：一句话、亮点、链接。</p>
+          <h2>Projects</h2>
+          <p>Include 2–6 projects that best represent you, each with: one sentence, highlights, and links.</p>
         </div>
 
         <div class="projects">
           <article class="card project">
             <div class="project-head">
-              <h3>项目 A：一句话标题</h3>
+              <h3>Project A: One-sentence Title</h3>
               <div class="project-links">
-                <a href="https://github.com/你的GitHub用户名/你的项目repo" target="_blank" rel="noreferrer">代码</a>
-                <a href="https://你的演示链接或论文链接" target="_blank" rel="noreferrer">演示</a>
+                <a href="https://github.com/YourGitHubUsername/YourProjectRepo" target="_blank" rel="noreferrer">Code</a>
+                <a href="https://YourDemoOrPaperLink" target="_blank" rel="noreferrer">Demo</a>
               </div>
             </div>
-            <p>一句话说明你做了什么、解决什么问题、面向谁。</p>
+            <p>One sentence explaining what you did, the problem you solved, and the audience it serves.</p>
             <ul class="list">
-              <li>亮点 1：量化指标/效果</li>
-              <li>亮点 2：技术栈/方法</li>
-              <li>亮点 3：难点与解决</li>
+              <li>Highlight 1: Quantified metric/results</li>
+              <li>Highlight 2: Tech stack/method</li>
+              <li>Highlight 3: Challenges and solutions</li>
             </ul>
             <div class="chips">
               <span class="chip">Python</span>
@@ -155,15 +154,15 @@
 
           <article class="card project">
             <div class="project-head">
-              <h3>项目 B：一句话标题</h3>
+              <h3>Project B: One-sentence Title</h3>
               <div class="project-links">
-                <a href="https://github.com/你的GitHub用户名" target="_blank" rel="noreferrer">代码</a>
+                <a href="https://github.com/YourGitHubUsername" target="_blank" rel="noreferrer">Code</a>
               </div>
             </div>
-            <p>一句话介绍 + 1~2 个成果点。</p>
+            <p>One sentence introduction + 1–2 outcome points.</p>
             <ul class="list">
-              <li>亮点 1</li>
-              <li>亮点 2</li>
+              <li>Highlight 1</li>
+              <li>Highlight 2</li>
             </ul>
             <div class="chips">
               <span class="chip">Web</span>
@@ -173,32 +172,32 @@
         </div>
       </section>
 
-      <!-- Contact -->
+      <!-- Contact Section -->
       <section id="contact" class="section">
         <div class="section-title">
-          <h2>联系</h2>
-          <p>把你的邮箱 / LinkedIn / GitHub 放这里。</p>
+          <h2>Contact</h2>
+          <p>Include your email / LinkedIn / GitHub here.</p>
         </div>
 
         <div class="grid-2">
           <div class="card">
-            <h3>快速联系</h3>
+            <h3>Quick Contact</h3>
             <p>
-              邮箱：<a href="mailto:your@email.com">your@email.com</a><br />
-              LinkedIn：<a href="https://www.linkedin.com/in/你的ID" target="_blank" rel="noreferrer">你的链接</a><br />
-              GitHub：<a href="https://github.com/你的GitHub用户名" target="_blank" rel="noreferrer">@你的GitHub用户名</a>
+              Email: <a href="mailto:your@email.com">your@email.com</a><br />
+              LinkedIn: <a href="https://www.linkedin.com/in/YourID" target="_blank" rel="noreferrer">Your Link</a><br />
+              GitHub: <a href="https://github.com/YourGitHubUsername" target="_blank" rel="noreferrer">@YourGitHubUsername</a>
             </p>
-            <p class="muted">如果你在找实习/科研合作，可以加一句：开放机会 + 偏好方向。</p>
+            <p class="muted">If you are looking for internships/research collaboration, you can add: Open to opportunities + preferred directions.</p>
           </div>
 
           <div class="card">
-            <h3>给我留言（可选）</h3>
+            <h3>Leave Me a Message (Optional)</h3>
             <p class="muted">
-              静态网站不直接发邮件。你可以：
-              1) 直接用邮箱；或 2) 用 Google Form；或 3) 用 Formspree（第三方表单服务）。
+              Static websites can't send emails directly. You can:
+              1) Use email directly; or 2) Use a Google Form; or 3) Use Formspree (third-party form service).
             </p>
             <a class="btn btn-ghost" href="https://forms.gle/" target="_blank" rel="noreferrer">
-              放一个 Google Form 链接 →
+              Place a Google Form link →
             </a>
           </div>
         </div>
